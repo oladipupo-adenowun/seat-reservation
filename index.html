@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seat Reservation System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Seat Reservation System</h1>
+        <div id="seating-chart" class="seating-chart">
+            <div class="seat available" onclick="bookSeat(0,0)">A1</div>
+            <div class="seat available" onclick="bookSeat(0,1)">A2</div>
+            <div class="seat available" onclick="bookSeat(0,2)">A3</div>
+            <div class="seat available" onclick="bookSeat(1,0)">B1</div>
+            <div class="seat available" onclick="bookSeat(1,1)">B2</div>
+            <div class="seat available" onclick="bookSeat(1,2)">B3</div>
+            <div class="seat available" onclick="bookSeat(2,0)">C1</div>
+            <div class="seat available" onclick="bookSeat(2,1)">C2</div>
+            <div class="seat available" onclick="bookSeat(2,2)">C3</div>
+
+            <div class="select-button" onclick="bookRandomSeat()">Book Random Seat</div>
+        
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
